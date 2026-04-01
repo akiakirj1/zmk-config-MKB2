@@ -129,7 +129,7 @@ layers:
   - TILDE
   - UP ARROW
   - NON US BACKSLASH
-  - AltGr+Ctl+END
+  - Ctl+Alt+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

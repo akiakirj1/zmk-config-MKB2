@@ -41,10 +41,10 @@ layers:
   - {t: LANGUAGE 1, h: BT}
   - '&mkp MB1'
   - {t: SPACE, h: Fnc}
-  - {t: LANGUAGE 2, h: Num}
+  - {t: SPACE, h: Num}
   - {t: ESCAPE, h: Num}
   - {t: BACKSPACE, h: Fnc}
-  - {t: LANGUAGE 1, h: BT}
+  - {t: LANGUAGE 2, h: BT}
   - RIGHT WIN
   - '&mkp MB4'
   - LEFT
@@ -101,7 +101,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: TAB, type: held}
   - TAB
-  - {t: ▽, type: trans}
+  - DELETE
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

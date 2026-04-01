@@ -55,7 +55,7 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans         &trans  &kp F7     &kp F8    &kp F9     &kp F10                &kp GRAVE      &kp TILDE       &kp UP_ARROW    &kp NON_US_BACKSLASH  &kp RA(RC(END))     &trans
+&trans         &trans  &kp F7     &kp F8    &kp F9     &kp F10                &kp GRAVE      &kp TILDE       &kp UP_ARROW    &kp NON_US_BACKSLASH  &kp LC(LA(END))     &trans
 &trans         &trans  &kp F1     &kp F2    &kp F3     &kp DOUBLE_QUOTES      &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans              &trans
 &trans         &trans  &kp F4     &kp F5    &kp F6     &kp SQT                &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION        &trans
 &kp LS(LG(S))  &trans  &trans               &kp TAB    &kp TAB                &trans         &kp DELETE                      &trans                &kp LC(LA(DELETE))  &trans

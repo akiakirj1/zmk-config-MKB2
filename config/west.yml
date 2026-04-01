@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: badjeff
-      url-base: https://github.com/badjeff
+    - name: akiakirj1
+      url-base: https://github.com/akiakirj1
     - name: te9no
       url-base: https://github.com/te9no
     - name: kot149
@@ -24,7 +24,7 @@ manifest:
       remote: caksoylar
       revision: main
     - name: zmk-pmw3610-driver
-      remote: badjeff
+      remote: akiakirj1
       revision: main
     - name: zmk-analog-input-driver
       remote: badjeff

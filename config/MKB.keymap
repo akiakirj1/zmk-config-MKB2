@@ -13,14 +13,7 @@
 #define SCROLL 4
 #define BT 5
 
-&mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <300>;
-};
-
-&lt { tapping-term-ms = <300>; };
-
-    behaviors {
+behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -44,6 +37,13 @@
             tap-ms = <20>;
         };
     };
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <300>;
+};
+
+&lt { tapping-term-ms = <300>; };
+
 
 / {
     keymap {

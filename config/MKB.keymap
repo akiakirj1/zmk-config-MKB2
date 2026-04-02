@@ -35,7 +35,7 @@
                                                &kp A                                                                       &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {

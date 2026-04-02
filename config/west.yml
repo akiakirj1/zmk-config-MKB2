@@ -16,9 +16,7 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: akiakirj1
-      url-base: https://github.com/akiakirj1
-      
+    
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -29,8 +27,8 @@ manifest:
       remote: caksoylar
       revision: v0.3-branch
     - name: zmk-pmw3610-driver
-      remote: akiakirj1
-      revision: main
+      remote: badjeff
+      revision: zmk-0.3
     - name: zmk-analog-input-driver
       remote: badjeff
       revision: main

@@ -45,8 +45,8 @@ layers:
   - {t: ESCAPE, h: Num}
   - {t: BACKSPACE, h: Fnc}
   - {t: LANGUAGE 2, h: BT}
-  - RIGHT WIN
   - '&mkp MB4'
+  - RIGHT WIN
   - LEFT
   - UP
   - SPACE

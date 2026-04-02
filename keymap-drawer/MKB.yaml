@@ -37,11 +37,11 @@ layers:
   - {t: PERIOD, h: RIGHT ALT}
   - {t: MINUS, h: RIGHT SHIFT}
   - ''
-  - '&mkp MB2'
   - {t: LANGUAGE 1, h: BT}
+  - '&mkp MB2'
   - '&mkp MB1'
+  - {t: LANGUAGE 1, h: Num}
   - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
   - {t: ESCAPE, h: Num}
   - {t: BACKSPACE, h: Fnc}
   - {t: LANGUAGE 2, h: BT}
@@ -99,8 +99,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: TAB, type: held}
   - TAB
+  - {t: TAB, type: held}
   - DELETE
   - DELETE
   - {t: ▽, type: trans}
@@ -158,8 +158,8 @@ layers:
   - Sft+Gui+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
   - {t: TAB, type: held}
+  - TAB
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
@@ -332,8 +332,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

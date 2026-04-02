@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
+  - ''
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - ''
+  - ''
   - {t: A, h: RCTRL}
   - S
   - {t: D, h: Scr}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: Scr}
   - L
   - {t: ENTER, h: RCTRL}
-  - {t: SQT, h: Mouse}
-  - LSHFT
+  - ''
+  - ''
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - COMMA
   - {t: PERIOD, h: RIGHT ALT}
   - {t: MINUS, h: RIGHT SHIFT}
-  - FSLH
+  - ''
   - '&mkp MB2'
   - {t: LANGUAGE 1, h: BT}
   - '&mkp MB1'
@@ -201,7 +201,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -333,7 +333,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -13,7 +13,14 @@
 #define SCROLL 4
 #define BT 5
 
-behaviors {
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <300>;
+};
+
+&lt { tapping-term-ms = <300>; };
+
+    behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -23,26 +30,16 @@ behaviors {
             tapping-term-ms = <200>;
         };
 
-        re_kp: sensor_rotate_kp {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-        };
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        mouse_scrl: mouse_wheel_scrl {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&msc>;
+            // 追加: スクロールのタップ時間を設定 (20ms)
 
             tap-ms = <20>;
         };
     };
-&mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <300>;
-};
-
-&lt { tapping-term-ms = <300>; };
 
 
 / {
@@ -60,7 +57,7 @@ behaviors {
                                                &kp A                                                                       &kp B
             >;
 
-            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         function_layer {

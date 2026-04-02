@@ -20,6 +20,31 @@
 
 &lt { tapping-term-ms = <300>; };
 
+    behaviors {
+        lt_to_layer_0: lt_to_layer_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_TO_0";
+            bindings = <&mo>, <&to_layer_0>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        re_kp: sensor_rotate_kp {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+        };
+
+        mouse_scrl: mouse_wheel_scrl {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+
+            tap-ms = <20>;
+        };
+    };
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -35,7 +60,7 @@
                                                &kp A                                                                       &kp B
             >;
 
-            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
         function_layer {

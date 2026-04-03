@@ -73,7 +73,7 @@
 
         mb4 {
             bindings = <&mkp MB4>;
-            key-positions = <7 8>;
+            key-positions = <31 32>;
         };
     };
 

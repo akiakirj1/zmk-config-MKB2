@@ -61,6 +61,9 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+        layers = <4>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
+
     };
 
 };

@@ -37,8 +37,6 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         force-awake;
-        //automouse-layer = <3>;
-        //scroll-layers = <4>;
  
     };
 };
@@ -61,6 +59,7 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+        input-processors = <&zip_xy_to_scroll_mapper &scroll_runtime_input_processor>;
     scroller{
         layers = <4>;
         input-processors = <&zip_xy_to_scroll_mapper>;

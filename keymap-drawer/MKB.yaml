@@ -40,9 +40,9 @@ layers:
   - ''
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: LANGUAGE 1, h: Num}
+  - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
-  - {t: ESCAPE, h: Num}
+  - {t: BACKSPACE, h: Num}
   - {t: BACKSPACE, h: Fnc}
   - {t: LANGUAGE 2, h: BT}
   - RIGHT WIN
@@ -120,7 +120,7 @@ layers:
   - B
   Num:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F11
   - F7
   - F8
   - F9
@@ -132,7 +132,7 @@ layers:
   - Ctl+Alt+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - F1
   - F2
   - F3
@@ -155,8 +155,8 @@ layers:
   - {t: ▽, type: trans}
   - QUESTION
   - {t: ▽, type: trans}
+  - ''
   - Sft+Gui+S
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: TAB, type: held}
   - TAB
@@ -361,3 +361,9 @@ combos:
   k: '&mkp MB2'
 - p: [31, 32]
   k: '&mkp MB4'
+- p: [16, 17]
+  k: LANGUAGE 1
+- p: [15, 16]
+  k: LANGUAGE 2
+- p: [18, 19]
+  k: ESCAPE

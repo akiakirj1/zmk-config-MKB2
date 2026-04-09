@@ -42,11 +42,11 @@ layers:
   - '&mkp MB1'
   - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
-  - {t: BACKSPACE, h: Num}
+  - {t: ESCAPE, h: Num}
   - {t: BACKSPACE, h: Fnc}
-  - {t: RIGHT WIN, h: BT}
+  - {t: LANGUAGE 2, h: BT}
+  - RIGHT WIN
   - '&mkp MB4'
-  - ''
   - LEFT
   - UP
   - SPACE

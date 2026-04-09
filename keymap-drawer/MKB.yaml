@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - ''
+  - LANGUAGE 1
   - ''
   - Y
   - U
@@ -18,7 +18,7 @@ layers:
   - {t: D, h: Scr}
   - F
   - G
-  - ''
+  - LANGUAGE 2
   - ''
   - H
   - J
@@ -40,72 +40,13 @@ layers:
   - ''
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
+  - {t: LANGUAGE 1, h: Num}
   - {t: ESCAPE, h: Num}
   - {t: BACKSPACE, h: Fnc}
   - {t: LANGUAGE 2, h: BT}
   - RIGHT WIN
   - '&mkp MB4'
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
-  Fnc:
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - Sft+0
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - LEFT BRACKET
-  - RIGHT BRACKET
-  - BACKSLASH
-  - PLUS
-  - EQUAL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - COLON
-  - SEMICOLON
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SLASH
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - TAB
-  - {t: TAB, type: held}
-  - DELETE
-  - DELETE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT
   - UP
   - SPACE
@@ -158,12 +99,71 @@ layers:
   - Sft+Gui+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - TAB
+  - {t: TAB, type: held}
+  - DELETE
+  - DELETE
+  - {t: ▽, type: trans}
+  - Ctl+Alt+DELETE
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - A
+  - B
+  Fnc:
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - BACKSLASH
+  - PLUS
+  - EQUAL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - COLON
+  - SEMICOLON
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SLASH
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: TAB, type: held}
   - TAB
   - DELETE
   - DELETE
   - {t: ▽, type: trans}
-  - Ctl+Alt+DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - UP

@@ -128,9 +128,9 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp F11        &kp F7     &kp F8    &kp F9     &kp F10                &trans    &trans    &kp GRAVE      &kp TILDE       &kp UP_ARROW    &kp NON_US_BACKSLASH  &kp LC(LA(END))     &trans
-&kp F12        &kp F1     &kp F2    &kp F3     &kp DOUBLE_QUOTES      &trans    &trans    &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans              &trans
-&trans         &kp F4     &kp F5    &kp F6     &kp SQT                &trans    &trans    &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION        &trans
+&kp F11        &kp F7     &kp F8    &kp F9     &kp F10                &trans    &trans    &kp GRAVE      &kp TILDE       &kp UP_ARROW    &kp NON_US_BACKSLASH  &kp LC(LA(END))  
+&kp F12        &kp F1     &kp F2    &kp F3     &kp DOUBLE_QUOTES      &trans    &trans    &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans           
+&trans         &kp F4     &kp F5    &kp F6     &kp SQT                &trans    &trans    &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION    
 &kp LS(LG(S))  &trans     &trans                    &kp TAB    &kp TAB               &kp DELETE          &kp DELETE            &trans                &kp LC(LA(DELETE))  &trans
 &kp LEFT  &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                                        &kp HOME        &kp PG_UP       &kp ENTER             &kp PG_DN           &kp END
                                     &kp A                                                                      &kp B
@@ -156,7 +156,7 @@
         scroll_layer {
             label = "Scr";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &kp RIGHT_WIN      &trans  &trans    &trans     &trans     &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans            &trans  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans     &trans    &trans     &trans             &trans  &trans    &mkp MB1  &mkp MB3   &mkp MB2   &trans
 &trans    &trans  &trans     &trans    &trans     &trans             &trans  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans               &trans     &trans             &trans  &trans               &trans     &trans     &trans

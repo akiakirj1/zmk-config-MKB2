@@ -63,32 +63,32 @@
 
         mb1 {
             bindings = <&mkp MB1>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
         };
 
         mb4 {
             bindings = <&mkp MB4>;
-            key-positions = <31 32>;
+            key-positions = <32 33>;
         };
 
         lang1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
         };
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <15 16>;
+            key-positions = <15 14>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
     };
 

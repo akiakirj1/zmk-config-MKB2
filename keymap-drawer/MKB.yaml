@@ -37,13 +37,13 @@ layers:
   - COMMA
   - {t: PERIOD, h: RIGHT ALT}
   - {t: MINUS, h: RIGHT SHIFT}
-  - ''
+  - {t: LEFT WIN, h: BT}
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: SPACE, h: Fnc}
-  - {t: LANGUAGE 1, h: Num}
-  - {t: ESCAPE, h: Num}
-  - {t: BACKSPACE, h: Fnc}
+  - {t: SPACE, h: Num}
+  - {t: LANGUAGE 1, h: Func}
+  - {t: ESCAPE, h: Func}
+  - {t: BACKSPACE, h: Num}
   - {t: LANGUAGE 2, h: BT}
   - RIGHT WIN
   - '&mkp MB4'
@@ -60,65 +60,6 @@ layers:
   - A
   - B
   Num:
-  - F11
-  - F7
-  - F8
-  - F9
-  - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - GRAVE
-  - TILDE
-  - UP ARROW
-  - NON US BACKSLASH
-  - Ctl+Alt+END
-  - F12
-  - F1
-  - F2
-  - F3
-  - DOUBLE QUOTES
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PAGE UP
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F4
-  - F5
-  - F6
-  - SQT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PAGE DOWN
-  - HOME
-  - END
-  - {t: ▽, type: trans}
-  - QUESTION
-  - Sft+Gui+S
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - TAB
-  - {t: TAB, type: held}
-  - DELETE
-  - DELETE
-  - {t: ▽, type: trans}
-  - Ctl+Alt+DELETE
-  - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
-  Fnc:
   - Sft+1
   - Sft+2
   - Sft+3
@@ -164,6 +105,65 @@ layers:
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - A
+  - B
+  Func:
+  - F11
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - GRAVE
+  - TILDE
+  - UP ARROW
+  - NON US BACKSLASH
+  - Ctl+Alt+END
+  - F12
+  - F1
+  - F2
+  - F3
+  - DOUBLE QUOTES
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE UP
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - SQT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - HOME
+  - END
+  - {t: ▽, type: trans}
+  - QUESTION
+  - Sft+Gui+S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - {t: TAB, type: held}
+  - DELETE
+  - DELETE
+  - {t: ▽, type: trans}
+  - Ctl+Alt+DELETE
   - {t: ▽, type: trans}
   - LEFT
   - UP
